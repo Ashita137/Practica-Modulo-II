@@ -1,0 +1,28 @@
+------ Practica 3 ------
+date
+sudo su
+lsblk
+fdisk /dev/sdb
+m
+n
+1
++10gb
+w
+lsblk
+mkfs.ext4 /dev/sdb1
+pwd
+ls
+cd Desktop
+mkdir ashley
+mount /dev/sdb1 ../Desktop/ashley
+findmnt /dev/sdb1
+cd ashley
+touch AdrianALcantara.txt
+ls
+cd ..
+umount /dev/sdb1
+findmnt /dev/sdb1
+mount /dev/sdb1 /mnt
+cd /mnt
+ls
+date

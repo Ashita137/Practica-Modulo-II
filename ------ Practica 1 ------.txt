@@ -1,0 +1,18 @@
+------ Practica 1 ------
+date
+sudo su
+dnf update
+dnf update --nobest
+dnf upgrade
+dnf upgrade --nobest
+dnf repolist all
+dnf search bashtop
+git clone [link del git]
+ls
+cd bashtop
+./bashtop
+cd ..
+yes | rm -rf bashtop
+ls
+dnf clean all
+date
